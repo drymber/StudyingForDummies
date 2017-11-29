@@ -1,17 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.IO;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace StudyingForDummies
 {
@@ -24,6 +13,14 @@ namespace StudyingForDummies
         {
             InitializeComponent();
             DataContext = new TestsViewModel();
+
+            string baseURL = Path.GetDirectoryName(System.Reflection.Assembly.GetEntryAssembly().Location);
+
+            Uri practical_uri = new Uri($"{baseURL}\\practical_txt.html");
+            Uri theory_uri = new Uri($"{baseURL}\\theory_txt.html");
+
+            webBrowser1.Navigate(theory_uri);
+            webBrowser2.Navigate(practical_uri);
         }
     }
 }

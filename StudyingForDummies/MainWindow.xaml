@@ -12,10 +12,10 @@
     <Grid>
         <TabControl>
             <TabItem Header="Теорія">
-                <WebBrowser Source="c:\users\ostap\documents\visual studio 2017\Projects\StudyingForDummies\StudyingForDummies\Resources\theory_txt.html" />
+                <WebBrowser x:Name="webBrowser1"/>
             </TabItem>
             <TabItem Header="Практика">
-                <WebBrowser Source="c:\users\ostap\documents\visual studio 2017\Projects\StudyingForDummies\StudyingForDummies\Resources\practical_txt.html" />
+                <WebBrowser x:Name="webBrowser2" />
 
             </TabItem>
 
