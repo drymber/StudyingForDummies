@@ -56,8 +56,8 @@
                         Command="{Binding CheckResultsCommand}"
                         Content="Check" />
                     <StackPanel Grid.Row="2" Orientation="Horizontal">
-                        <TextBlock Text="Result: " />
-                        <TextBlock Text="{Binding Result}" />
+                        <TextBlock Text="Result: " FontSize="14" FontWeight="SemiBold"/>
+                        <TextBlock Text="{Binding Result}" FontSize="14"/>
                     </StackPanel>
                 </Grid>
             </TabItem>

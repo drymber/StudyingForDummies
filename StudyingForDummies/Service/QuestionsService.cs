@@ -58,7 +58,7 @@ namespace StudyingForDummies.Service
         }
         public IEnumerable<Answer> GetAllAnswers()
         {
-            var json = File.ReadAllText(@"c:\users\ostap\documents\visual studio 2017\Projects\StudyingForDummies\StudyingForDummies\Resources\Keys.json");
+            var json = File.ReadAllText(@".\Keys.json");
             var answers = new List<Answer>();
             var resultObjects = AllChildren(JObject.Parse(json))
             .First(c => c.Type == JTokenType.Array && c.Path.Contains("keys"))
@@ -79,7 +79,7 @@ namespace StudyingForDummies.Service
         }
         public IEnumerable<Question> GetAllQuestions()
         {
-            var json = File.ReadAllText(@"c:\users\ostap\documents\visual studio 2017\Projects\StudyingForDummies\StudyingForDummies\Resources\Questions.json");
+            var json = File.ReadAllText(@".\Questions.json");
             var questions = new List<Question>();
             var resultObjects = AllChildren(JObject.Parse(json))
             .First(c => c.Type == JTokenType.Array && c.Path.Contains("questions"))
