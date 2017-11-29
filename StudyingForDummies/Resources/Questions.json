@@ -1,0 +1,154 @@
+{
+    "questions":[
+                 {
+                    "number": 0,
+                    "text": "У Object Pasсal для опрацювання виняткових ситуацій передбачений механізм захищеного блоку, який починається зарезервованим словом:",
+                    "alternatives": ["do", "let", "try", "perform"]
+                 },
+                 {
+                    "number": 1,
+                    "text": "У Object Pasсal для опрацювання виняткових ситуацій передбачений механізм захищеного блоку, який закінчується зарезервованим словом:",
+                    "alternatives": ["finish", "end", "continue", "final"]
+                 },
+                 {
+                    "number": 2,
+                    "text": "Скільки є типів захищених блоків, які відрізняються способом опрацювання виняткових ситуацій?",
+                    "alternatives": ["Один(except)", "Два(except,finally)", "Нема таких типів", "Три"]
+                 },
+                 {
+                    "number": 3,
+                    "text": "Оператор опрацювання винятку в блоці except має такий синтаксис:",
+                    "alternatives": ["do оператор;", "catch клас_виняткової_ситуації do оператор;", "in клас_виняткової_ситуації do оператор;", "on клас_виняткової_ситуації do оператор;"]
+                 },
+                 {
+                    "number": 4,
+                    "text": "У випадку виникнення помилки в блоці типу try...except, відбудеться:",
+                 "alternatives": ["Програма надрукує помилку;", "Покаже модальне вікно з помилкою;", "Виконання програми продовжиться після ключового слова end;", "Керування отримує відповідний оператор опрацювання винятку в секції except;"]
+                 },
+                 {
+                    "number": 5,
+                    "text": "У випадку виникнення помилки в блоці типу try...finally, відбудеться:",
+                    "alternatives": ["Виконання програми негайно продовжиться після ключового слова finally;", "Програма закінчить виконувати всі оператори в секції try, а потім перейде в блок finally;", "Нічого не відбудеться;", "Будуть сварити програміста;"]
+                 },
+                 {
+                    "number": 6,
+                    "text": "Базовим класом для виняткових ситуацій є:",
+                    "alternatives": ["Error", "EException", "Exception", "EMathError"]
+                 },
+                 {
+                    "number": 7,
+                    "text": "Для того, щоб згенерувати виняткову ситуацію використовують оператор:",
+                    "alternatives": ["Throw", "Raise", "Push", "Kick"]
+                 },
+                 {
+                    "number": 8,
+                    "text": "Для чого потрібно враховувати ієрархію виняткових ситуацій при їх опрацюванні в except блоці?",
+                 "alternatives": ["Щоб було читабельніше;", "Щоб виняткові ситуації похідних класів не були перехоплені винятковими ситуаціями базових класів;", "Щоб потім їх передати в finally block;", "Щоб в майбутньому не путати програмістів;"]
+                 },
+                 {
+                    "number": 9,
+                    "text": "Чи можливо моделювати блоки типу try...except...finally?",
+                    "alternatives": ["Так;", "Не завжди;", "Не можна;", "Якщо дуже хочеться;"]
+                 },
+                 {
+                    "number": 10,
+                    "text": "Яку мінімальну кількість форм містить проект Delphi?",
+                    "alternatives": ["Одна;", "Дві;", "Три;", "Залежить від проекту;"]
+                 },
+                 {
+                    "number": 11,
+                    "text": "Яка властивість форми визначає її стиль?",
+                    "alternatives": ["FormStyle", "FormType", "StyleOfForm", "Style"]
+                 },
+                 {
+                    "number": 12,
+                    "text": "Який стиль форми визничає звичайну форму, що використовується для різних цілей, у т.ч. - для загального керування проектом?",
+                    "alternatives": ["fsNormal", "fsMDIChild", "fsMDIForm", "fsStayOnTop"]
+                 },
+                 {
+                    "number": 13,
+                    "text": "Які два стилі форми використовують при створенні багатодокументних програм у стилі MDI(MDI – multi document in- terface)?",
+                    "alternatives": ["fsNormal і fsStayOnTop", "fsMDIChild і fsMDIForm", "fsMDIForm і fsStayOnTop", "fsMDIForm і fsNormal"]
+                 },
+                 {
+                    "number": 14,
+                    "text": "Який стиль форми використовують для вікон, які завжди мають розміщуватися над усіма іншими вікнами програми?",
+                    "alternatives": ["fsNormal", "fsMDIChild", "fsMDIForm", "fsStayOnTop"]
+                 },
+                 {
+                    "number": 15,
+                    "text": "Які методи показують форму?",
+                    "alternatives": ["Show і ShowModal", "Show i Present", "Show i PresentModal", "Push i Present"]
+                 },
+                 {
+                    "number": 16,
+                    "text": "Який метод форми стилю fsMDIForm відповідає за розміщення дочірніх вікон каскадом?",
+                    "alternatives": ["Cascade", "SetChildCascade", "ArrangeByCascade", "DoItByCascade"]
+                 },
+                 {
+                    "number": 17,
+                    "text": "Який метод форми стилю fsMDIForm відповідає за розміщення дочірніх вікон мозаїкою?",
+                    "alternatives": ["TileAll", "TileChild", "TileForms", "Tile"]
+                 },
+                 {
+                    "number": 18,
+                    "text": "Який метод форми стилю fsMDIForm відповідає за розміщення дочірніх вікон за піктограмами?",
+                    "alternatives": ["ArrangeIcons", "ArrangeAllIcons", "DoArrangeIcons", "Icons"]
+                 },
+                 {
+                    "number": 19,
+                    "text": "Який атрибус батьківської форми відповідає за горозинтальне/вертикальне розміщення дочірніх форм при впорядкуванні дочірніх форм методом Tile?",
+                    "alternatives": ["TileMode", "TileSetup", "TileStyle", "TileState"]
+                 },
+                 {
+                    "number": 20,
+                    "text": "Який метод батьківської форми використовують для активізацї наступного/попереднього дочірнього вікна?",
+                    "alternatives": ["Next/Previous", "NextOne/PreviousOne", "NextChild/PreviousChild", "NextItem/PreviousItem"]
+                 },
+                 {
+                    "number": 21,
+                    "text": "Чи мають дочірні вікна на етапі виконання програми власне меню?",
+                    "alternatives": ["Так", "Не мають", "Можливо", "Невідомо"]
+                 },
+                 {
+                    "number": 22,
+                    "text": "Чи можна створити головне меню дочірньої форми?",
+                    "alternatives": ["Так", "Не можна", "Залежить від програми", "Невідомо"]
+                 },
+                 {
+                    "number": 23,
+                    "text": "Який метод використовується для створення дочірнього вікна?",
+                    "alternatives": ["Open", "Init", "Create", "New"]
+                 },
+                 {
+                    "number": 24,
+                    "text": "Яка властивість батьківського вікна відповідає за кількість відкритих дочірніх вікон?",
+                    "alternatives": ["MDIChildCount", "MDIChildCounter", "MDIChildNumber", "MDIChildNumbers"]
+                 },
+                 {
+                    "number": 25,
+                    "text": "Яка властивість батьківського вікна - дискриптор активного дочірнього вікна?",
+                    "alternatives": ["ActiveMDIChild", "HightMDIChild", "TopMDIChild", "SelectedMDIChild"]
+                 },
+                 {
+                    "number": 26,
+                    "text": "Яка властивість батьківського вікна - масив TFORM, який містить дискриптори дочірніх вікон у порядку їхнього вікриття?",
+                    "alternatives": ["MDISubForms", "MDIChildrens", "MDIChildren", "MDIDerivedForms"]
+                 },
+                 {
+                    "number": 27,
+                    "text": "Який метод використовують для закриття активного дочірнього вікна об’єкта ActivеMDIChild, який є властивістю батьківського вікна MDI?",
+                    "alternatives": ["Сlose", "ShutDown", "Reject", "Escape"]
+                 },
+                 {
+                    "number": 28,
+                    "text": "Яке значення має мати властивіcть FormStyle батьківської форми в MDI?",
+                    "alternatives": ["fsNormal", "fsMDIChild", "fsMDIForm", "fsStayOnTop"]
+                 },
+                 {
+                    "number": 29,
+                    "text": "Яке значення має мати властивіcть FormStyle дочірньої форми в MDI?",
+                    "alternatives": ["fsNormal", "fsMDIChild", "fsMDIForm", "fsStayOnTop"]
+                 }
+              ]
+}  

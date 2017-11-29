@@ -1,0 +1,66 @@
+﻿<Window
+    x:Class="StudyingForDummies.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:StudyingForDummies"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="MainWindow"
+    Width="525"
+    Height="350"
+    mc:Ignorable="d">
+    <Grid>
+        <TabControl>
+            <TabItem Header="Теорія">
+                <WebBrowser Source="c:\users\ostap\documents\visual studio 2017\Projects\StudyingForDummies\StudyingForDummies\Resources\theory_txt.html" />
+            </TabItem>
+            <TabItem Header="Практика">
+                <WebBrowser Source="c:\users\ostap\documents\visual studio 2017\Projects\StudyingForDummies\StudyingForDummies\Resources\practical_txt.html" />
+
+            </TabItem>
+
+            <TabItem Header="Тести">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <ScrollViewer VerticalScrollBarVisibility="Auto">
+                        <ItemsControl ItemsSource="{Binding Questions}">
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <Grid Margin="10">
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition />
+                                            <RowDefinition />
+                                        </Grid.RowDefinitions>
+                                        <TextBlock Text="{Binding Text}" FontSize="14"/>
+                                        <ItemsControl Grid.Row="1" ItemsSource="{Binding Answers}">
+                                            <ItemsControl.ItemTemplate>
+                                                <DataTemplate>
+                                                    <StackPanel Orientation="Horizontal" Margin="2">
+                                                        <RadioButton GroupName="{Binding RelativeSource={RelativeSource AncestorLevel=1, AncestorType=ItemsControl}, Path=DataContext.Id}" IsChecked="{Binding IsSelected}" />
+                                                        <TextBlock Text="{Binding Text}" />
+                                                    </StackPanel>
+                                                </DataTemplate>
+                                            </ItemsControl.ItemTemplate>
+                                        </ItemsControl>
+                                    </Grid>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+                    </ScrollViewer>
+                    <Button
+                        Grid.Row="1"
+                        Command="{Binding CheckResultsCommand}"
+                        Content="Check" />
+                    <StackPanel Grid.Row="2" Orientation="Horizontal">
+                        <TextBlock Text="Result: " />
+                        <TextBlock Text="{Binding Result}" />
+                    </StackPanel>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>
