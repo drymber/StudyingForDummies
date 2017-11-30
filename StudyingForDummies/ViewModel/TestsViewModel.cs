@@ -13,6 +13,7 @@ namespace StudyingForDummies
         private IEnumerable<Question> _questions;
         private string _result;
 
+
         public TestsViewModel()
         {
             Questions = _questionsService.GetQuestions(10);

@@ -28,3 +28,44 @@ c:\users\ostap\documents\visual studio 2017\Projects\StudyingForDummies\Studying
 c:\users\ostap\documents\visual studio 2017\Projects\StudyingForDummies\StudyingForDummies\bin\Debug\GalaSoft.MvvmLight.Platform.xml
 c:\users\ostap\documents\visual studio 2017\Projects\StudyingForDummies\StudyingForDummies\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
 c:\users\ostap\documents\visual studio 2017\Projects\StudyingForDummies\StudyingForDummies\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Coder\Source\Repos\StudyingForDummies\StudyingForDummies\bin\Debug\StudyingForDummies.exe.config
+C:\Users\Coder\Source\Repos\StudyingForDummies\StudyingForDummies\bin\Debug\StudyingForDummies.exe
+C:\Users\Coder\Source\Repos\StudyingForDummies\StudyingForDummies\bin\Debug\StudyingForDummies.pdb
+C:\Users\Coder\Source\Repos\StudyingForDummies\StudyingForDummies\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\Coder\Source\Repos\StudyingForDummies\StudyingForDummies\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\Coder\Source\Repos\StudyingForDummies\StudyingForDummies\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Users\Coder\Source\Repos\StudyingForDummies\StudyingForDummies\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Coder\Source\Repos\StudyingForDummies\StudyingForDummies\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Coder\Source\Repos\StudyingForDummies\StudyingForDummies\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Coder\Source\Repos\StudyingForDummies\StudyingForDummies\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\Coder\Source\Repos\StudyingForDummies\StudyingForDummies\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\Coder\Source\Repos\StudyingForDummies\StudyingForDummies\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\Coder\Source\Repos\StudyingForDummies\StudyingForDummies\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\Coder\Source\Repos\StudyingForDummies\StudyingForDummies\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\Coder\Source\Repos\StudyingForDummies\StudyingForDummies\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Users\Coder\Source\Repos\StudyingForDummies\StudyingForDummies\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Coder\Source\Repos\StudyingForDummies\StudyingForDummies\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Coder\Source\Repos\StudyingForDummies\StudyingForDummies\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Coder\Source\Repos\StudyingForDummies\StudyingForDummies\obj\Debug\StudyingForDummies.csprojResolveAssemblyReference.cache
+C:\Users\Coder\Source\Repos\StudyingForDummies\StudyingForDummies\obj\Debug\MainWindow.g.cs
+C:\Users\Coder\Source\Repos\StudyingForDummies\StudyingForDummies\obj\Debug\App.g.cs
+C:\Users\Coder\Source\Repos\StudyingForDummies\StudyingForDummies\obj\Debug\StudyingForDummies_Content.g.cs
+C:\Users\Coder\Source\Repos\StudyingForDummies\StudyingForDummies\obj\Debug\StudyingForDummies_MarkupCompile.cache
+C:\Users\Coder\Source\Repos\StudyingForDummies\StudyingForDummies\obj\Debug\StudyingForDummies_MarkupCompile.lref
+C:\Users\Coder\Source\Repos\StudyingForDummies\StudyingForDummies\obj\Debug\MainWindow.baml
+C:\Users\Coder\Source\Repos\StudyingForDummies\StudyingForDummies\obj\Debug\StudyingForDummies.g.resources
+C:\Users\Coder\Source\Repos\StudyingForDummies\StudyingForDummies\obj\Debug\StudyingForDummies.Properties.Resources.resources
+C:\Users\Coder\Source\Repos\StudyingForDummies\StudyingForDummies\obj\Debug\StudyingForDummies.csproj.GenerateResource.Cache
+C:\Users\Coder\Source\Repos\StudyingForDummies\StudyingForDummies\obj\Debug\StudyingForDummies.exe
+C:\Users\Coder\Source\Repos\StudyingForDummies\StudyingForDummies\obj\Debug\StudyingForDummies.pdb
+C:\Users\Coder\Source\Repos\StudyingForDummies\StudyingForDummies\bin\Debug\Resources\practical_txt.html
+C:\Users\Coder\Source\Repos\StudyingForDummies\StudyingForDummies\bin\Debug\Resources\theory_txt.html
+C:\Users\Coder\Source\Repos\StudyingForDummies\StudyingForDummies\bin\Debug\Resources\Keys.json
+C:\Users\Coder\Source\Repos\StudyingForDummies\StudyingForDummies\bin\Debug\Resources\Questions.json
+C:\Users\Coder\Source\Repos\StudyingForDummies\StudyingForDummies\bin\Debug\Resources\child_form_ordering.png
+C:\Users\Coder\Source\Repos\StudyingForDummies\StudyingForDummies\bin\Debug\Resources\child_on_parent_form.png
+C:\Users\Coder\Source\Repos\StudyingForDummies\StudyingForDummies\bin\Debug\Resources\multiple_child_selection.png
+C:\Users\Coder\Source\Repos\StudyingForDummies\StudyingForDummies\bin\Debug\Resources\multiple_child_tile_horizontal.png
+C:\Users\Coder\Source\Repos\StudyingForDummies\StudyingForDummies\bin\Debug\Resources\multiple_child_tile_vertical.png
+C:\Users\Coder\Source\Repos\StudyingForDummies\StudyingForDummies\bin\Debug\Resources\parent_form.png
+C:\Users\Coder\Source\Repos\StudyingForDummies\StudyingForDummies\bin\Debug\Resources\parent_form_opened.png

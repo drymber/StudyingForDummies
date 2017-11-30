@@ -113,24 +113,50 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
-    <None Include="Resources\Keys.json" />
-    <None Include="Resources\Questions.json" />
+    <None Include="Resources\Keys.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Questions.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\child_form_ordering.png" />
-    <Resource Include="Resources\child_on_parent_form.png" />
-    <Resource Include="Resources\multiple_child_selection.png" />
-    <Resource Include="Resources\multiple_child_tile_horizontal.png" />
-    <Resource Include="Resources\multiple_child_tile_vertical.png" />
-    <Resource Include="Resources\parent_form.png" />
-    <Resource Include="Resources\parent_form_opened.png" />
-    <Content Include="Resources\practical_txt.html" />
-    <Resource Include="Resources\Test.ico" />
-    <Resource Include="Resources\Test.txt" />
-    <Content Include="Resources\theory_txt.html" />
+    <None Include="Resources\child_form_ordering.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\child_on_parent_form.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\multiple_child_selection.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\multiple_child_tile_horizontal.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\multiple_child_tile_vertical.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\parent_form.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\parent_form_opened.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <Content Include="Resources\practical_txt.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Resource Include="Resources\Test.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Test.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Content Include="Resources\theory_txt.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

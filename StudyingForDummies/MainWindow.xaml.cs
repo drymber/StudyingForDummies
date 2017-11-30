@@ -16,8 +16,8 @@ namespace StudyingForDummies
 
             string baseURL = Path.GetDirectoryName(System.Reflection.Assembly.GetEntryAssembly().Location);
 
-            Uri practical_uri = new Uri($"{baseURL}\\practical_txt.html");
-            Uri theory_uri = new Uri($"{baseURL}\\theory_txt.html");
+            Uri practical_uri = new Uri($"{baseURL}\\Resources\\practical_txt.html");
+            Uri theory_uri = new Uri($"{baseURL}\\Resources\\theory_txt.html");
 
             webBrowser1.Navigate(theory_uri);
             webBrowser2.Navigate(practical_uri);

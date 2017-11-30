@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Coder\Source\Repos\StudyingForDummies\StudyingForDummies\obj\Debug\
+C:\Users\Coder\Source\Repos\StudyingForDummies\StudyingForDummies\obj\Release\
 StudyingForDummies
 none
 false
-DEBUG;TRACE
+TRACE
 C:\Users\Coder\Source\Repos\StudyingForDummies\StudyingForDummies\App.xaml
 11151548125
 21761634893
-13-711042239
+9-1301719603
 70-85297135
 MainWindow.xaml;
 
-False
+True
 
